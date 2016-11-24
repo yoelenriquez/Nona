@@ -41,11 +41,9 @@
         <activity android:name=".Activities.IntroductionOneActivity" />
         <activity android:name=".Activities.IntroductionTwoActivity" />
         <activity android:name=".Activities.IntroductionThreeActivity" />
-        <activity android:name=".Activities.LoginWithGoogle" />
         <activity android:name=".Activities.IntroductionFourActivity" />
-        <activity android:name=".Login.Login" />
-        <activity android:name=".Login.Register" />
-        <activity android:name=".Activities.OpcionesMinijuego"></activity>
+        <activity android:name=".Activities.Juego" />
+        <activity android:name=".Activities.Terminos" />
         <activity
             android:name=".Activities.SegundaActivity"
             android:label="@string/title_activity_segunda"
@@ -62,6 +60,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Activities.SegundaActivity" />
         </activity>
+        <activity
+            android:name=".Activities.MiniJuegoActivity"
+            android:label="@string/title_activity_mini_juego"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activities.LogrosActivity" />
     </application>
 
 </manifest>
